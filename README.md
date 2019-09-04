@@ -83,6 +83,8 @@ boxStyle: {
 
 ```jsx
 const exampleScreen = ({ navigation }) => {
-    return <Button title="Go Home" onPress={() => navigation.navigate('Home')} />;
+    return (
+        <Button title="Go Home" onPress={() => navigation.navigate('Home', { user: data.user })} />
+    );
 };
 ```
