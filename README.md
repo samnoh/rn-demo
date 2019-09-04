@@ -81,6 +81,8 @@ boxStyle: {
 
 ### Navigation
 
+-   navigation.navigate('Navigator Name', {parameter})
+
 ```jsx
 const exampleScreen = ({ navigation }) => {
     return (
