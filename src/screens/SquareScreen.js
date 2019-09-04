@@ -1,10 +1,8 @@
 import React, { useReducer } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View } from 'react-native';
 
 import ColorCounter from '../components/ColorCounter';
 import colorReducer from '../reducers/colorReducer';
-
-const styles = StyleSheet.create({});
 
 const COLOR_INCREMENT = 20;
 

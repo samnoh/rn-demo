@@ -75,3 +75,11 @@ boxStyle: {
     ...StyleSheet.absoluteFillObject
 }
 ```
+
+### Navigation
+
+```jsx
+const exampleScreen = ({ navigation }) => {
+    return <Button title="Go Home" onPress={() => navigation.navigate('Home')} />;
+};
+```

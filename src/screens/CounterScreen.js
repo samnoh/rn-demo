@@ -3,8 +3,6 @@ import { Text, View, Button, StyleSheet } from 'react-native';
 
 import counterReducer from '../reducers/counterReducer';
 
-const styles = StyleSheet.create({});
-
 const CounterSceen = () => {
     const [state, dispatch] = useReducer(counterReducer, { count: 0 });
 

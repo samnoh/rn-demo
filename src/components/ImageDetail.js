@@ -1,7 +1,5 @@
 import React from 'react';
-import { Text, View, Image, StyleSheet } from 'react-native';
-
-const styles = StyleSheet.create({});
+import { Text, View, Image } from 'react-native';
 
 const ImageDetail = ({ title, imageSource }) => {
     return (
