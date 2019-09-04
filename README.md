@@ -30,7 +30,7 @@ export default ExampleScreen;
 ### Image
 
 ```jsx
-<Image source={require('example.png')} />
+<Image resizeMode="cover" source={require('example.png')} />
 ```
 
 ### FlatList
@@ -57,6 +57,9 @@ export default ExampleScreen;
     autoCorrect={false}
     value={value}
     onChangeText={newValue => setValue(newValue)}
+    // Or just
+    onChangeText={setValue}
+    onEndEditing={postDate}
 />
 ```
 
