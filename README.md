@@ -27,17 +27,6 @@ export default ExampleScreen;
 <Button title="Click Me" onPress={() => {}} />
 ```
 
-### TextInput
-
-```jsx
-<TextInput
-    autoCapitalize="none"
-    autoCorrect={false}
-    value={value}
-    onChangeText={newValue => setValue(newValue)}
-/>
-```
-
 ### Image
 
 ```jsx
@@ -55,6 +44,19 @@ export default ExampleScreen;
     keyExtractor={val => val.id}
     data={data}
     renderItem={({ item, index }) => <Text>{item.name}</Text>}
+/>
+```
+
+### TextInput
+
+-   No default styling
+
+```jsx
+<TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    value={value}
+    onChangeText={newValue => setValue(newValue)}
 />
 ```
 
